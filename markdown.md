@@ -1,17 +1,16 @@
-# Recipe Form - Validation Notes
+# Recipe Form – Error Handling
 
-Dette dokument beskriver mulige fejl i Recipe Form og forslag til fejlbeskeder.  
-Validering implementeres senere i projektet.
+Dette dokument beskriver mulige fejl i formularen samt forslag til fejlbeskeder.
 
 ---
 
-## 1. Title
+## Formularfelter
 
-**Påkrævet felt**
+### Title
 
 Mulige fejl:
 
-- Mangler input
+- Feltet er tomt
 - For kort tekst
 
 Fejlbeskeder:
@@ -21,13 +20,11 @@ Fejlbeskeder:
 
 ---
 
-## 2. Instructions
-
-**Påkrævet felt**
+### Instructions
 
 Mulige fejl:
 
-- Mangler tekst
+- Feltet er tomt
 - For kort beskrivelse
 
 Fejlbeskeder:
@@ -37,9 +34,7 @@ Fejlbeskeder:
 
 ---
 
-## 3. Ingredients
-
-**Påkrævet felt (mindst 1)**
+### Ingredients
 
 Mulige fejl:
 
@@ -53,9 +48,11 @@ Fejlbeskeder:
 
 ---
 
-## 4. Generelt
+## Generelle fejl
 
-Brugeren forsøger at sende en ufuldstændig form.
+Mulige fejl:
+
+- Brugeren forsøger at indsende en tom formular
 
 Fejlbesked:
 
